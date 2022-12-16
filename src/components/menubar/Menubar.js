@@ -20,9 +20,8 @@ const Menubar = () => {
       animate={{
         width: isOpen ? "17%" : "4%",
         transition: {
-          duration: "0.2s",
           type: "spring",
-          damping: "11",
+          damping: "13",
         },
       }}
       className={`menuBarMain position-fixed top-0 start-0 text-nowrap d-flex flex-column ${
